@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap');
+
+*, ::after,::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root{
+  --Soft-Blue: hsl(231, 69%, 60%);
+  --Soft-Red: hsl(0, 94%, 66%);
+  --Grayish-Blue: hsl(229, 8%, 60%);
+  --Very-Dark-Blue: hsl(229, 31%, 21%);
+}
+
+html{
+  font-family: 'Rubik', sans-serif;
+  font-size: 62.5%;
+}
+
+body{
+  max-width: 150rem;
+  padding: 2%;
+  margin: 0 auto;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+}
+nav ul {
+  display: flex;
+  place-items: center;
+  gap: 3rem;
+  font-size: 1.3rem;
+  font-family: inherit;
+  text-transform: uppercase;
+}
+.navigation ul {
+  list-style: none;
+}
+.navigation a{
+  text-decoration: none;
+  color: black;
+}
+.btn{
+  font-size: 1.3rem;
+  color: #fff;
+  padding: 1rem 2rem;
+  border: none;
+  outline: none;
+  border-radius: 0.2rem;
+}
+.login-btn{
+  text-transform: uppercase;
+  background: var(--Soft-Red)
+}
+
+/***Hero****/
+
+.hero-section{
+  display: flex;
+  gap: 5%;
+  position: relative;
+}
+
+.hero-img-bg{
+  background: var(--Soft-Blue);
+  width: 50rem;
+  height: 30rem;
+  position: absolute;
+  right: 0;
+  top:20rem;
+  z-index: -1;
+  border-bottom-left-radius: 10rem;
+}
