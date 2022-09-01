@@ -7,7 +7,7 @@ const Subscribe = () => {
 
       <h5 className="lead">Stay up-to-date with what we’re doing</h5>
       <div className="email-section">
-        <input type="email" />
+        <input type="email" required />
         <button className="btn btn-contact">Contact Us</button>
       </div>
     </section>
