@@ -5,9 +5,9 @@ const Hero = () => {
   return (
     <div className="hero-section">
       <div className="hero-desc">
-        <h1>A Simple Bookmark Manager</h1>
+        <h1 className="hero-h1">A Simple Bookmark Manager</h1>
 
-        <p>
+        <p className="hero-p">
           A clean and simple interface to organize your favourite websites. Open
           a new browser tab and see your sites load instantly. Try it for free.
         </p>
